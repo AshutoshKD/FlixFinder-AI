@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder - AI Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container feature-page">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="feature-header">
+            <h1>Movie Finder</h1>
+            <p>Can't remember the title? Describe what you remember about a movie, and we'll try to identify it.</p>
+        </div>
+        
+        <div class="search-container">
+            <textarea id="movieFinderInput" placeholder="Describe the movie as best you can (e.g., 'A movie where a guy plants ideas in people's dreams' or 'A comedy with two guys pretending to be women to join an all-female band')"></textarea>
+            <button class="search-button" onclick="findMovie()">Find This Movie</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="loading hidden">Searching for your movie...</div>
+            <div id="error" class="error hidden"></div>
+            <div id="recommendations" class="recommendations hidden">
+                <h3>Possible Movie Matches</h3>
+                <ol id="movieFinderList" class="result-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="pages.js"></script>
+</body>
+</html> 

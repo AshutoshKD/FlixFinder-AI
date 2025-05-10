@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Recommendations - AI Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container feature-page">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="feature-header">
+            <h1>TV Shows Like This</h1>
+            <p>Enter a TV show you enjoyed, and we'll recommend similar ones to watch next.</p>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="tvShowInput" placeholder="Enter a TV show name (e.g., Breaking Bad, Stranger Things, The Office)">
+            <button class="search-button" onclick="getTVShowRecommendations()">Find Similar TV Shows</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="loading hidden">Finding TV shows for you...</div>
+            <div id="error" class="error hidden"></div>
+            <div id="recommendations" class="recommendations hidden">
+                <h3>TV Shows You Might Like</h3>
+                <ol id="tvShowList" class="result-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="pages.js"></script>
+</body>
+</html> 

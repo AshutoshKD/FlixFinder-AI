@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre Search - AI Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container feature-page">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="feature-header">
+            <h1>Search by Genre</h1>
+            <p>Discover top movies and TV shows in your favorite genres.</p>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="genreInput" placeholder="Enter a genre (e.g., Sci-Fi, Comedy, Thriller, Romance)">
+            <button class="search-button" onclick="getGenreRecommendations()">Find Content by Genre</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="loading hidden">Finding content for you...</div>
+            <div id="error" class="error hidden"></div>
+            <div id="recommendations" class="recommendations hidden">
+                <h3>Top Content in This Genre</h3>
+                <ol id="genreList" class="result-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="pages.js"></script>
+</body>
+</html> 

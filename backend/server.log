@@ -1,0 +1,473 @@
+2025/05/11 00:05:28 Server logging initialized
+2025/05/11 00:05:28 Server starting on port 8080...
+2025/05/11 00:06:18 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here are 5 possible movie titles based on your description, along with explanations:\n\n1.  **Megamind -** A supervillain is the focus, a hero exists to oppose him, and a young fan initially idolizes Megamind's power, wanting him to win.\n2.  **The Dark Knight Rises -** Batman is the hero, Bane is the villain seeking to be more powerful, and many citizens are swayed by Bane's ideology and want to see him succeed.\n3.  **Star Wars: Episode III - Revenge of the Sith -** Anakin Skywalker is the hero-turned-villain (depending on perspective), Obi-Wan is the clear hero, and Palpatine manipulates Anakin, while also trying to gain as much power as he possibly can.\n4.  **Superman IV: The Quest for Peace -** Superman is the hero, Lex Luthor creates Nuclear Man as the villain hoping to surpass Superman, and some individuals might want Nuclear Man to defeat Superman and bring about chaos.\n5.  **Shazam! -** Billy Batson becomes the hero Shazam, Doctor Sivana is the villain striving for power, and the Shazam Family members want him to be more powerful so they can defeat Shazam.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.60305627676156848
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 72,
+    "candidatesTokenCount": 260,
+    "totalTokenCount": 332,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 72
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 260
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 00:06:36 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, based on your description, here are 5 possible movie titles:\n\n1.  **Spy Kids 3-D: Game Over -** The villain, the Toymaker, wants power, a kid, the Toymaker's son, is involved in the game and wants his dad to win against Juni, and the hero Juni goes through virtual levels his dad designed.\n\n2.  **Tron: Legacy -** Clu is the villain, Sam Flynn is the hero, and Kevin Flynn created the game world where Clu wants ultimate power, and his son Sam is trying to save his dad.\n\n3.  **The Last Starfighter -** Xur is the villain seeking to dominate, Alex Rogan is the hero recruited through a game, and while there isn't a specific kid wanting the villain to win, the game was a tool for recruitment to fight against the bad guys.\n\n4.  **Ender's Game -** While not a traditional villain/hero dynamic, the alien Formics are the perceived enemy, Ender Wiggin is the \"hero\" trained through games, and the military designed the games with intentions of power.\n\n5.  **Wreck-It Ralph -** While the dynamics are a bit different with Ralph wanting to be the hero, King Candy/Turbo is the main villain trying to maintain power in the game world and while no child specifically requests for Turbo to be powerful; his actions are driven by a desire to remain the dominant figure within the arcade's games.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.81924750588156958
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 78,
+    "candidatesTokenCount": 308,
+    "totalTokenCount": 386,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 78
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 308
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 00:06:46 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here are 5 possible movie titles based on your description, ranked by how well they seem to fit:\n\n1.  **Spy Kids 3-D: Game Over -** A villain manipulates a video game, and the protagonist is a hero and the kid goes into the game, fits the general concept of a game coming to life and a hero/villain dynamic, although the father-son motivation is less direct.\n2.  **Tron: Legacy -** While not a perfect fit, it features a hero, a villain, and a son who enters a digital world created by his father, where the lines between reality and game blur.\n3.  **Zathura: A Space Adventure -** A board game brings intergalactic chaos to life, pitting two brothers against various challenges; while not explicitly a hero/villain dynamic, the game itself acts as the antagonist.\n4.  **Jumanji: Welcome to the Jungle -** Players get sucked into a video game where they become avatars and must overcome challenges, though the father-son element and specific wish for villain power are missing.\n5.  **Pixels -** Classic video game characters come to life and attack Earth; the connection to a father creating the game isn't present, but the \"game comes to life\" aspect is central.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.60892768831916777
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 83,
+    "candidatesTokenCount": 273,
+    "totalTokenCount": 356,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 83
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 273
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 00:07:01 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, based on that description, here are 5 possible movie titles, ranked by how well they seem to fit:\n\n1.  **Spy Kids 3-D: Game Over -** This movie features a video game world coming to life, a villain and a hero, and a child wanting the villain to win, tying closely to the description's game element.\n\n2.  **Zathura: A Space Adventure -** Two brothers play a board game that brings its dangers to life, involving characters playing roles of heros and villains, and can reflect a childs desire for particular game outcomes.\n\n3.  **Jumanji -** This classic involves a board game bringing its dangers (and a jungle-dwelling man) to life, but it doesn't strongly emphasize a child's active desire for one side to win, though that could be inferred.\n\n4.  **Tron -** A man enters a computer game to combat a villainous program, reflecting the hero versus villain theme, even though the origin of the game doesn't directly involve a child's wish.\n\n5.  **Pixels -** While it involves video game characters attacking Earth, it loosely touches the \"game coming to life\" element with antagonistic game characters, but it lacks the specific child and hero/villain focus the other movies have.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.90081115722656246
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 93,
+    "candidatesTokenCount": 275,
+    "totalTokenCount": 368,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 93
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 275
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 00:07:10 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, based on your description, here are 5 possible Bollywood movie titles that could fit, ranked by likelihood:\n\n1.  **Ra.One -** This movie features a villain and a hero coming to life from a video game created by the hero's son, who initially favors the villain's power.\n2.  **Bade Miyan Chote Miyan -** An AI turns evil, and creates a villain, a police officer and army officer duo must come together to thwart its evil plans and save India from destruction.\n3.  **Mr. India -** While not directly involving a video game, it involves a kid wanting their hero to be more powerful, and a formidable villain with advanced technology.\n4.  **Krrish -** Although the villain isn't created through a game, the hero possesses superpowers and faces an antagonist driven by scientific ambition, which might resonate with the \"powerful villain\" aspect.\n5.  **Robot -** The film showcases a powerful robot gone rogue, fitting the \"powerful villain\" theme, while the scientist who created it (the hero) struggles to control him.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.79651073699301866
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 97,
+    "candidatesTokenCount": 235,
+    "totalTokenCount": 332,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 97
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 235
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 00:44:40 Server logging initialized
+2025/05/11 00:44:40 Server starting on port 8080...
+2025/05/11 00:44:50 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are 10 movies similar to Inception:\n\n1.  The Matrix\n2.  Dark City\n3.  Memento\n4.  Eternal Sunshine of the Spotless Mind\n5.  Source Code\n6.  Minority Report\n7.  Shutter Island\n8.  Primer\n9.  Looper\n10. Arrival\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.1266994218568544
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 33,
+    "candidatesTokenCount": 74,
+    "totalTokenCount": 107,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 33
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 74
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 01:00:21 Server logging initialized
+2025/05/11 01:00:21 Server starting on port 8080...
+2025/05/11 01:01:02 Server logging initialized
+2025/05/11 01:01:02 Server starting on port 8080...
+2025/05/11 01:01:14 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here are 10 movies similar to The Matrix:\n\n1.  Dark City\n2.  The Thirteenth Floor\n3.  Equilibrium\n4.  Total Recall (1990)\n5.  Ghost in the Shell (1995)\n6.  Strange Days\n7.  Minority Report\n8.  Source Code\n9.  Inception\n10. Upgrade\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.096145781603726471
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 32,
+    "candidatesTokenCount": 88,
+    "totalTokenCount": 120,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 32
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 88
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 01:02:57 Server logging initialized
+2025/05/11 01:02:57 Server starting on port 8080...
+2025/05/11 01:03:51 Server logging initialized
+2025/05/11 01:03:51 Server starting on port 8080...
+2025/05/11 01:04:10 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are 10 TV shows similar to Breaking Bad:\n\n1.  Ozark\n2.  Better Call Saul\n3.  Narcos\n4.  The Sopranos\n5.  The Wire\n6.  Peaky Blinders\n7.  Mr. Robot\n8.  Queen's Gambit\n9.  Dexter\n10. Fargo\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.13484838681343275
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 114,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 78
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 01:04:40 Received file: 856780-3371x1886-desktop-hd-killua-wallpaper-photo.jpg, size: 645794 bytes
+2025/05/11 01:04:40 Saved file to /var/folders/j8/0wl2p1cd0wq_6yy717c170680000gn/T/upload-907336385.jpg, size: 645794 bytes
+2025/05/11 01:04:40 Processing image of size: 645794 bytes
+2025/05/11 01:04:40 Image added to request, length: 861060 bytes
+2025/05/11 01:04:40 Using model: gemini-1.5-flash for image processing
+2025/05/11 01:04:43 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The image showcases an anime-style character, possibly a young boy, with spiky white hair and blue eyes, rendered in a dark, moody palette of blues and blacks.  The background features a night sky with clouds and faint stars, enhancing the melancholic atmosphere. The visual style is reminiscent of coming-of-age anime series like *Hunter x Hunter* or *Fullmetal Alchemist: Brotherhood*,  with themes of introspection and possibly a journey of self-discovery.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.23154683907826742
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 291,
+    "candidatesTokenCount": 96,
+    "totalTokenCount": 387,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 33
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 96
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-flash"
+}
+2025/05/11 01:04:43 Calling Gemini API with image data (length: 861060)
+2025/05/11 01:04:43 Image added to request, length: 861060 bytes
+2025/05/11 01:04:43 Using model: gemini-1.5-flash for image processing
+2025/05/11 01:04:49 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The image is a still from *Hunter x Hunter* featuring Killua Zoldyck.  Based on its visual style (dark, moody color palette, focus on character expression, anime style) and the thematic elements suggested (young protagonist, possibly pensive or brooding mood), here are 10 recommendations for movies or TV shows with similar visual or thematic elements:\n\n\n**Anime/Animation:**\n\n1. **Fullmetal Alchemist: Brotherhood:** Shares the dark fantasy setting, strong character development, and intense emotional moments.  Similar color palettes are often used.\n2. **Attack on Titan:** Features a similar brooding atmosphere, intense action sequences, and complex characters facing overwhelming odds.  Dark and gritty aesthetics are prominent.\n3. **My Hero Academia:** Though brighter in tone overall, it features a strong focus on character development of a young protagonist with a unique skillset, similar to Killua’s journey.\n4. **Mob Psycho 100:** Shares a similar art style in some scenes and features a young, powerful protagonist grappling with internal struggles and a complex world.\n\n\n**Live-Action (with Anime-esque or Thematically Similar elements):**\n\n5. **The Lord of the Rings:** Epic fantasy with a young protagonist (Frodo) on a perilous journey, often featuring moments of quiet contemplation against expansive backdrops.\n6. **Game of Thrones (Seasons 1-4):**  Shares the dark fantasy elements,  complex characters navigating a morally gray world, and a focus on power struggles. \n7. **His Dark Materials:** A young protagonist, Lyra, discovers a dark, complex world with hidden powers and adult themes.\n\n\n**Animated Movies (Thematically Similar):**\n\n8. **Spirited Away:**  Features a young protagonist going on a magical journey of self-discovery, although the visuals are brighter and more fantastical.\n9. **Howl's Moving Castle:**  Shares a similar fantasy aesthetic and features a strong female protagonist facing adversity.\n\n\n**Manga (If broadening scope beyond movies/TV):**\n\n10. **Vinland Saga:** Shares the violent yet philosophical themes with a dark, mature tone.\n\n\nThese recommendations consider both visual similarities (color palettes, animation styles) and thematic resonance (young protagonist on a journey, dark fantasy elements, emotional depth).  The level of thematic overlap varies, but all offer some connection to the mood and style presented in the provided image.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.67900235285023169
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 279,
+    "candidatesTokenCount": 499,
+    "totalTokenCount": 778,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 21
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 499
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-flash"
+}
+2025/05/11 01:04:49 Successfully received response from Gemini API
+2025/05/11 01:05:30 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here are 10 movies similar to 'Suzume', based on themes of disaster, journey, coming-of-age, and folklore:\n\n1.  Your Name.\n2.  Weathering with You\n3.  Children Who Chase Lost Voices\n4.  Spirited Away\n5.  Wolf Children\n6.  A Silent Voice\n7.  5 Centimeters Per Second\n8.  Okko's Inn\n9.  The Girl Who Leapt Through Time\n10. Mirai\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.16797545978001185
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 33,
+    "candidatesTokenCount": 112,
+    "totalTokenCount": 145,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 33
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 112
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 01:06:39 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Okay, here are 10 movies and TV shows that fit into the 'sici' (social impact cinema/television) genre:\n\n1.  'Parasite'\n2.  'I May Destroy You'\n3.  'Nomadland'\n4.  'When They See Us'\n5.  'Spotlight'\n6.  'The Handmaid's Tale'\n7.  '13th'\n8.  'Do the Right Thing'\n9.  'Schindler's List'\n10. 'Chernobyl'\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.21113342535300333
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 42,
+    "candidatesTokenCount": 122,
+    "totalTokenCount": 164,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 42
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 122
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
+2025/05/11 01:08:38 Server logging initialized
+2025/05/11 01:08:38 Server starting on port 8080...
+2025/05/11 01:09:01 Full API response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Please provide the correct TV show title. 'pdf' is not a TV show. Once you provide the correct TV show title, I can suggest 10 similar shows.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.42907259199354386
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 36,
+    "totalTokenCount": 71,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}

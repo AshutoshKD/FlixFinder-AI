@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description Search - AI Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container feature-page">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="feature-header">
+            <h1>Search by Description</h1>
+            <p>Describe themes, settings, or vibes you're looking for, and we'll recommend content that matches.</p>
+        </div>
+        
+        <div class="search-container">
+            <textarea id="descriptionInput" placeholder="Describe what you want to watch (e.g., 'A heartwarming story with clever humor and strong female characters' or 'Dark dystopian setting with philosophical themes')"></textarea>
+            <button class="search-button" onclick="getDescriptionRecommendations()">Find Matching Content</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="loading hidden">Finding content for you...</div>
+            <div id="error" class="error hidden"></div>
+            <div id="recommendations" class="recommendations hidden">
+                <h3>Content Based on Your Description</h3>
+                <ol id="descriptionList" class="result-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="pages.js"></script>
+</body>
+</html> 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search - AI Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container feature-page">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="feature-header">
+            <h1>Search by Image</h1>
+            <p>Upload an image, and we'll find movies and TV shows with similar visual style or themes.</p>
+        </div>
+        
+        <div class="search-container">
+            <div class="file-upload-container">
+                <label for="imageInput" class="file-upload-label">Select an image file</label>
+                <input type="file" id="imageInput" accept="image/*" class="file-input">
+                <div id="file-name" class="file-name-display"></div>
+            </div>
+            <button class="search-button" onclick="searchByImage()">Search with this Image</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="loading hidden">Analyzing your image...</div>
+            <div id="error" class="error hidden"></div>
+            
+            <div id="summaryContainer" class="summary-container hidden">
+                <h3>About Your Image</h3>
+                <p id="imageSummary" class="image-summary"></p>
+            </div>
+            
+            <div id="recommendations" class="recommendations hidden">
+                <h3>Content Matching Your Image</h3>
+                <ol id="imageList" class="result-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="pages.js"></script>
+    <script>
+        // Display file name instead of preview
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('file-name').textContent = `Selected file: ${file.name}`;
+            }
+        });
+    </script>
+</body>
+</html> 
