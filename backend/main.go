@@ -16,7 +16,7 @@ import (
 
 func main() {
 	// Set up logging to file
-	logFile, err := os.OpenFile("server.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	logFile, err := os.OpenFile("server.log", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0666)
 	if err != nil {
 		fmt.Printf("Error opening log file: %v\n", err)
 		os.Exit(1)
