@@ -1,4 +1,4 @@
-# AI Movie Recommender
+# FlixFinder AI
 
 This is an AI-powered movie and TV show recommendation system with a Netflix-style UI that uses the Gemini AI API to provide intelligent recommendations based on various inputs.
 
@@ -24,7 +24,7 @@ This is an AI-powered movie and TV show recommendation system with a Netflix-sty
 1. Clone this repository:
 ```bash
 git clone <repository-url>
-cd movie-recommender
+cd flixfinder-ai
 ```
 
 2. Navigate to the backend directory and install dependencies:
@@ -80,7 +80,7 @@ http://localhost:8080
 
 ## Technical Details
 
-- Backend: Go with Gorilla Mux for HTTP routing
+- Backend: Go with FastHTTP for high-performance HTTP handling
 - Frontend: HTML, CSS, and vanilla JavaScript
 - AI: Google's Gemini AI API for both text and image processing
 - Image Processing: Base64 encoding for secure image transmission

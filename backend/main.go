@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
+	"flixfinder-ai/utils"
 	"fmt"
 	"io"
 	"log"
-	"movie-recommender/utils"
 	"net/http"
 	"os"
 	"path/filepath"

@@ -1,4 +1,4 @@
-module movie-recommender
+module flixfinder-ai
 
 go 1.23.0
 
