@@ -46,8 +46,28 @@ func main() {
 			handleImageSearch(ctx)
 		default:
 			// Serve static files
-			fsHandler := fasthttpadaptor.NewFastHTTPHandler(http.FileServer(http.Dir("../frontend")))
-			fsHandler(ctx)
+			// Try multiple paths for frontend files to support both local and deployment environments
+			frontendPaths := []string{"../frontend", "./frontend", "/app/frontend"}
+
+			serveStatic := func(path string) bool {
+				if _, err := os.Stat(path); !os.IsNotExist(err) {
+					fsHandler := fasthttpadaptor.NewFastHTTPHandler(http.FileServer(http.Dir(path)))
+					fsHandler(ctx)
+					return true
+				}
+				return false
+			}
+
+			// Try each path in order
+			for _, path := range frontendPaths {
+				if serveStatic(path) {
+					return
+				}
+			}
+
+			// If no frontend files are found, return 404
+			ctx.SetStatusCode(fasthttp.StatusNotFound)
+			ctx.SetBodyString("Frontend files not found. Please check deployment configuration.")
 		}
 	}
 
