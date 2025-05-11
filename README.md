@@ -1,5 +1,7 @@
 # FlixFinder AI
+
 **🔗 [Live Demo](https://flixfinder-ai.onrender.com)**  
+
 This is an AI-powered movie and TV show recommendation system with a Netflix-style UI that uses the Gemini AI API to provide intelligent recommendations based on various inputs.
 
 ## Features
